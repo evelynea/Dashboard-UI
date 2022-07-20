@@ -1,0 +1,115 @@
+.center{
+
+    padding: 30px;
+}
+.header{
+    height: 80px;
+    border: 1px solid #bbb;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 243);
+    /* margin-top: 20px; */
+    border: none;
+    padding: 20px;
+    
+    /* position: relative; */
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    /* position: absolute; */
+}
+.greetings{
+    width: fit-content;
+}
+.profile-right-nav{
+    margin-left: 80px;
+    /* margin-top: 20px; */
+
+}
+
+/* courses css */
+
+header{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin: 20px;
+}
+
+.title{
+    width: 250px;
+    display: flex;
+}
+
+header button{
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    border-radius: 10px;
+}
+.nber-of-courses{
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+    gap: 8px;
+}
+.nber-of-courses p{
+    margin-top: 5px;
+}
+.middle-section-profile{
+    height: 30px;
+    width: 30px;
+}
+.search-icon-center{
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.course-card{
+    border:1px solid #eee;
+    box-shadow:1px 2px 1px #ddd;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+.course-logo{
+    width: 100px;    
+}
+.course-intro{
+    display: flex;
+}
+.course-name p{
+    color: green;
+    font-size: 10px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.author p{
+    width: fit-content;
+    color: #ddd;
+    font-size: 10px;
+    
+}
+
+.progress img{
+    width: 100px;
+    /* height: 200px; */
+}
+.progress{
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
